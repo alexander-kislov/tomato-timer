@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Alexander Kislov">
+    <meta name="copyright" content="Alexander Kislov">
+    <meta name="description" content="Tomato Timer">
+    <meta name="keywords" content="Tomato Timer, Timer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <title>Tomato Timer</title>
+    <link rel="shortcut icon" href="img/tomato-timer.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+  </head>
+  <body>
+    <div class="contacts"><a href="https://github.com/Farengeyt451" target="_blank">
+        <div class="icon icon-github"></div></a><a href="https://alexander-kislov.github.io/" target="_blank">
+        <div class="icon icon-portfolio"></div></a><a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">
+        <div class="icon icon-wikipedia"></div></a></div>
+    <div class="timer">
+      <div class="timer-controls">
+        <div class="inputs">
+          <div class="tooltip">
+            <input type="number" name="work" value="25" min="0" placeholder="work"><span class="tooltiptext">Session Length</span>
+          </div>
+          <div class="tooltip">
+            <input type="number" name="rest" value="5" min="0" placeholder="rest"><span class="tooltiptext">Break Length</span>
+          </div>
+        </div>
+      </div>
+      <div class="display">
+        <h1 class="display-time-left"></h1>
+        <p class="display-end-time"></p>
+      </div>
+      <div class="buttons-control">
+        <button name="start-timer">Start</button>
+        <button name="pause-timer">Pause</button>
+      </div>
+    </div>
+    <div class="volume-control icon-volume-on"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
